@@ -29,6 +29,7 @@ enum MyServiceItemId {
   library,
   locationSearch,
   zoo,
+  chicken,
   ;
 }
 
@@ -182,6 +183,13 @@ extension MyServiceIdExt on MyServiceItemId {
           icon: Assets.svg.iconZoo24.svg(),
           category: MyServiceCategory.explore,
           destinationUrl: '',
+        ),
+      MyServiceItemId.chicken => MyServiceItem(
+          title: '你的電子手雞！',
+          description: '你不要死在我手機裡啊',
+          icon: Assets.svg.iconLocationSearch24.svg(),
+          category: MyServiceCategory.explore,
+          destinationUrl: 'https://tamagotchi-city.vercel.app',
         ),
     };
   }

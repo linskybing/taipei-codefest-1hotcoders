@@ -38,6 +38,11 @@ Future<void> initServices() async {
   await Get.putAsync<NotificationService>(() async => await NotificationService().init());
 
   Get.put<SubscriptionService>(SubscriptionService());
+
+  NotificationService.showNotification(
+    title: "sdfsdf",
+    content: "dsfsdf",
+  );
 }
 
 class MyApp extends StatelessWidget {

@@ -189,7 +189,7 @@ extension MyServiceIdExt on MyServiceItemId {
           description: '你不要死在我手機裡啊',
           icon: Assets.svg.iconLocationSearch24.svg(),
           category: MyServiceCategory.explore,
-          destinationUrl: 'https://tamagotchi-city.vercel.app',
+          destinationUrl: 'https://pet-fitness.vercel.app/',
         ),
     };
   }

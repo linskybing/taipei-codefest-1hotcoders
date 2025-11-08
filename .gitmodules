@@ -1,6 +1,6 @@
 [submodule "frontend"]
 	path = frontend
-	url = https://github.com/linskybing/tamagotchi-city.git
+	url = https://github.com/linskybing/pet-fitness-frontend.git
 [submodule "backend"]
 	path = backend
-	url = https://github.com/linskybing/back-end.git
+	url = https://github.com/linskybing/pet-fitness-backend.git

@@ -39,10 +39,6 @@ Future<void> initServices() async {
 
   Get.put<SubscriptionService>(SubscriptionService());
 
-  NotificationService.showNotification(
-    title: "sdfsdf",
-    content: "dsfsdf",
-  );
 }
 
 class MyApp extends StatelessWidget {
